@@ -1,9 +1,12 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders all & selected events list', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const allEventsHeader = screen.getByText("All Events");
+  const selectedEventsHeader = screen.getByText("Selected Events");
+
+  expect(allEventsHeader).toBeInTheDocument();
+  expect(selectedEventsHeader).toBeInTheDocument();
 });
+ 

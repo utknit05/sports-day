@@ -1,0 +1,59 @@
+.eventCardContainer {
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    box-shadow: 2px 2px #cbcaca;
+    max-width: 250px;
+    background-image: linear-gradient(to right, #553c9a, #b393d3);
+    justify-content: center;
+}
+
+.eventDetailsContainer {
+    align-items: center;
+    display: flex;
+}
+
+.eventDescription {
+    border-left: 1px solid #000;
+    padding: 16px 0 16px 16px;
+    margin-left: 16px;
+}
+
+.eventName {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.eventSubText {
+    font-size: 0.9rem;
+    margin: 1px 0;
+}
+
+.eventButtonWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eventActionButton {
+    border-radius: 6px;
+    color: #000;
+    padding: 6px 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.selectButton {
+    background-color: #beefc0;
+    border: 1px solid #279303;
+}
+
+.removeButton {
+    background-color: #efcebe;
+    border: 1px solid #932003;
+}
+
+.disabledButton {
+    background-color: #ebefeb;
+    border: 1px solid #070707;
+}

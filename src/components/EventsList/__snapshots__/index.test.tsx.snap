@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsList renders selected EventsList 1`] = `
+<div>
+  <div
+    class="eventsListContainer"
+  >
+    <div
+      class="headerContainer"
+    >
+      Selected Events
+    </div>
+    <div
+      class="filtersContainer"
+    >
+      <div
+        class="filterPillContainer selectedFilterPill"
+      >
+        All
+      </div>
+      <div
+        class="filterPillContainer "
+      >
+        Swimming
+      </div>
+    </div>
+    <div
+      class="eventsListLayout"
+    >
+      <div
+        class="eventCardContainer"
+      >
+        <div
+          class="eventDetailsContainer"
+        >
+          <h1>
+            S
+          </h1>
+          <div
+            class="eventDescription"
+          >
+            <p
+              class="eventName"
+            >
+              Freestyle 400M
+            </p>
+            <p
+              class="eventSubText"
+            >
+              (
+              Swimming
+              )
+            </p>
+            <p
+              class="eventSubText"
+            >
+              3 PM - 4 PM
+            </p>
+          </div>
+        </div>
+        <div
+          class="eventButtonWrapper"
+        >
+          <button
+            class="eventActionButton removeButton"
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EventsList renders unselected EventsList 1`] = `
+<div>
+  <div
+    class="eventsListContainer"
+  >
+    <div
+      class="headerContainer"
+    >
+      All Events
+    </div>
+    <div
+      class="filtersContainer"
+    >
+      <div
+        class="filterPillContainer selectedFilterPill"
+      >
+        All
+      </div>
+      <div
+        class="filterPillContainer "
+      >
+        Swimming
+      </div>
+    </div>
+    <div
+      class="eventsListLayout"
+    >
+      <div
+        class="eventCardContainer"
+      >
+        <div
+          class="eventDetailsContainer"
+        >
+          <h1>
+            S
+          </h1>
+          <div
+            class="eventDescription"
+          >
+            <p
+              class="eventName"
+            >
+              Freestyle 400M
+            </p>
+            <p
+              class="eventSubText"
+            >
+              (
+              Swimming
+              )
+            </p>
+            <p
+              class="eventSubText"
+            >
+              3 PM - 4 PM
+            </p>
+          </div>
+        </div>
+        <div
+          class="eventButtonWrapper"
+        >
+          <button
+            class="eventActionButton selectButton"
+          >
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

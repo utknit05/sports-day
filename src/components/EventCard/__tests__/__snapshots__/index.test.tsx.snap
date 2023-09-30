@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventCard Component renders Event Card 1`] = `
+<div>
+  <div
+    class="eventCardContainer"
+  >
+    <div
+      class="eventDetailsContainer"
+    >
+      <h1>
+        S
+      </h1>
+      <div
+        class="eventDescription"
+      >
+        <p
+          class="eventName"
+        >
+          Freestyle 400M
+        </p>
+        <p
+          class="eventSubText"
+        >
+          (
+          Swimming
+          )
+        </p>
+        <p
+          class="eventSubText"
+        >
+          1 PM - 3 PM
+        </p>
+      </div>
+    </div>
+    <div
+      class="eventButtonWrapper"
+    >
+      <button
+        class="eventActionButton selectButton"
+      >
+        Select
+      </button>
+    </div>
+  </div>
+</div>
+`;
